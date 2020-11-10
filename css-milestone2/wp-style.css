@@ -183,6 +183,7 @@ div.icon-title-main > div.title-sx-container > h3:first-child{
   padding-bottom: 30px;
   font-weight: lighter;
   font-size: 30px;
+  text-shadow: 5px 4px 8px;
 }
 
 .square-big> p{
