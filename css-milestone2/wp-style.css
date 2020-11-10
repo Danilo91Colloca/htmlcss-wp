@@ -66,6 +66,7 @@ body{
 /* creazione contenuto della head */
 #head-container>.bg-img-head{
   background-image: url("../img-milestone2/header-bg.png");
+  background-size: cover;
   border: 10px solid rgb(255, 255, 255);
 }
 
@@ -77,14 +78,15 @@ div.head-content div.head-title-img:first-child{
   background-size: cover;
 }
 .head-content{
-  padding: 100px;
+
+  padding: 50px 0px;
 }
 
 /* posizionamente ed editing del sottotitolo */
  div.head-content .h1-container{
   width: 800px;
   margin: 0 auto;
-  padding-top: 10px;
+  padding-top: 30px;
 }
 
 h1{
