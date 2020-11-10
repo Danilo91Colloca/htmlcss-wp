@@ -1,0 +1,101 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* utility del contenitore totale*/
+#total-container{
+  width: 1200px;
+  height: 2000px;  /* cmd temp */
+  margin: 0 auto;
+}
+
+/* utility dei container principali */
+#head-container{
+  width: 1200px;
+  height: 200px;
+  padding-top: 10px;
+}
+
+.head-content{
+  width: 100%;
+  height:100%;
+  background-color: yellow;
+
+
+}
+
+.main-container{
+  width: 1200px;
+  padding: 10px 0px;
+}
+
+/* clear fix del main contaier per impedire lo spostamento causato dai float interni */
+.main-clearfix::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.container-sx{
+  width: 300px;
+}
+
+.container-center{
+  width: 600px;
+  padding: 0px 10px;
+}
+
+.container-dx{
+  width: 300px;
+}
+
+.float-L{
+  float: left;
+}
+
+/* creazione e posizionamento quadrato lato sx */
+.container-sx :first-child{
+  height:300px;
+  background-color: violet;
+}
+
+.container-center :first-child{
+  height: 600px;
+  background-color: purple;
+}
+
+.container-dx :first-child{
+  width: 100%;
+}
+
+.container-dx :nth-child(2){
+  width: 100%;
+
+}
+
+.rectangle{
+  width: 100%;
+  height: 200px;
+  background-color: violet;
+}
+
+.box1{
+  padding-bottom: 10px;
+}
+
+
+/* utility footer */
+
+#footer-container{
+  width:1200px;
+  height: 100px;
+}
+
+#footer-container div:first-child{
+  width: 100%;
+  height: 100%;
+  background-color: lightblue;
+}
