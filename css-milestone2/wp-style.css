@@ -63,7 +63,22 @@ body{
   float: left;
 }
 
+/* creazione contenuto della head */
+#head-container>.bg-img-head{
+  background-image: url("../img-milestone2/header-bg.png");
+  border: 10px solid rgb(255, 255, 255);
+}
 
+div.head-content div.head-title-img:first-child{
+  width: 450px;
+  height: 200px;
+  margin: 0 auto;
+  background-image: url("../img-milestone2/header-title.png");
+  background-size: cover;
+}
+.head-content{
+  padding: 100px;
+}
 /* creazione navbar sotto l' head-img */
 
 
@@ -113,7 +128,7 @@ nav{
   padding: 20px;
 }
 
-.square-big>h1{
+.square-big>h2{
   padding-bottom: 30px;
 }
 
