@@ -1,8 +1,12 @@
+/* css reset */
+
 *{
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
+
+/* img background qualora il monitor fosse superiore a 1200px */
 
 body{
   background-image: url("../img-milestone2/page-bg.png");
@@ -17,7 +21,7 @@ body{
 
 }
 
-/* utility dei container principali */
+/* utility head container */
 #head-container{
   width: 1200px;
   padding-top: 30px;
@@ -41,16 +45,16 @@ body{
   clear: both;
 }
 
-
+/* utility container sinistro, centro e destra */
 .container-sx{
-  width: 200px;
+  width: 150px;
   background-color: rgb(255, 255, 255);
   border-radius: 10px;
 
 }
 
 .container-center{
-  width: 800px;
+  width: 850px;
   padding: 0 50px;
 
 }
@@ -59,12 +63,13 @@ body{
   width: 200px;
 }
 
+/* utility float position */
 .float-L{
   float: left;
 }
 
 
-/* creazione contenuto della head */
+/* contenuto della head */
 #head-container>.bg-img-head{
   background-image: url("../img-milestone2/header-bg.png");
   background-size: cover;
@@ -83,7 +88,7 @@ div.head-content div.head-title-img:first-child{
   padding: 50px 0px;
 }
 
-/* posizionamente ed editing del sottotitolo */
+/*  sottotitolo del main title*/
  div.head-content .h1-container{
   width: 800px;
   margin: 0 auto;
@@ -104,7 +109,7 @@ nav{
   background-color: rgb(102, 102, 102);
 }
 
-/* creazione e posizionamento quadrato lato sx */
+/* icona del box sinistro */
 .icon-title-main {
   border-radius: 5px;
 }
@@ -120,16 +125,18 @@ nav{
   border-radius: 25%;
 }
 
+/* titolo box lato sinistro */
 div.icon-title-main > div.title-sx-container{
   padding-top: 5px;
   }
 div.icon-title-main > div.title-sx-container >h3:first-child{
   text-align: center;
   font-weight: lighter;
-  font-size: 24px;
+  font-size: 20px;
+  padding-bottom: 10px;
 }
 
-/* creazione lista servizi con font verde */
+/* lista servizi box lato sinistro */
 
 .listbox-l-container{
   padding-right: 5px;
@@ -141,9 +148,10 @@ div.icon-title-main > div.title-sx-container >h3:first-child{
 }
 
 .listbox-l-container > ul > li{
-  padding-top: 10px;
+  padding-bottom: 10px;
   color: rgb(62, 125, 34);
-  font-size: 15px;
+  font-size: 14px;
+
 }
 
 
