@@ -137,18 +137,18 @@ div.nav-items-container{
   border-radius: 5px;
 }
 
-/* titolo box lato sinistro */
+/* titolo box SINISTRA */
 div.icon-title-main > div.title-sx-container{
   padding-top: 5px;
   }
-div.icon-title-main > div.title-sx-container >h3:first-child{
+div.icon-title-main > div.title-sx-container > h3:first-child{
   text-align: center;
   font-weight: lighter;
   font-size: 28px;
   padding-bottom: 10px;
 }
 
-/* lista servizi box lato sinistro */
+/* lista servizi box SINISTRA */
 
 .listbox-l-container{
   padding-right: 5px;
@@ -181,43 +181,40 @@ div.icon-title-main > div.title-sx-container >h3:first-child{
 
 .square-big>h2{
   padding-bottom: 30px;
+  font-weight: lighter;
+  font-size: 30px;
 }
 
 .square-big> p{
-  line-height: 40px;
+  line-height: 30px;
   font-size: 18px;
-  font-weight: 500;
 }
 
 /* box DESTRO */
 
-.container-dx :first-child{
-  width: 100%;
-}
-
-.container-dx :nth-child(2){
-  width: 100%;
-
-}
-
-.container-dx :nth-child(3){
-  width: 100%;
-
-}
-
-
 .rectangle{
   width: 100%;
-  height: 200px;
   background-color: rgb(255, 255, 255);
   border-radius: 5px;
+  padding: 20px 30px;
 }
 
+/* utility dei box 1 2 e 3 del widget lato destro */
 .box1,  .box2{
-  padding-bottom: 10px;
+  padding-bottom: 40px;
 }
 
-/* inserimento contenuti header */
+/* posizionamento del contenuto dei box del widget */
+div.rectangle > div.title-widget-container> h3:first-child{
+  padding-bottom: 25px;
+  font-size: 28px;
+  font-weight: lighter;
+}
+
+div.rectangle > div.text-widget-container> p:first-child{
+  line-height: 30px;
+  font-size: 18px;
+}
 
 
 
