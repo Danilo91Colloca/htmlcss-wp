@@ -176,7 +176,7 @@ div.icon-title-main > div.title-sx-container > h3:first-child{
 
 /* posizionamento del testo nel box centrale */
 .square-big{
-  padding: 20px 30px;
+  padding: 20px 40px;
 }
 
 .square-big>h2{
@@ -223,11 +223,13 @@ div.rectangle > div.text-widget-container> p:first-child{
 
 #footer-container{
   width:1200px;
-  height: 100px;
+  height: 200px;
+  background-color: white;
+  border-radius: 5px;
+
 }
 
 #footer-container div:first-child{
   width: 100%;
   height: 100%;
-  background-color: lightblue;
 }
