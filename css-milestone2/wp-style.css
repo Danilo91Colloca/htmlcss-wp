@@ -79,9 +79,21 @@ div.head-content div.head-title-img:first-child{
 .head-content{
   padding: 100px;
 }
+
+/* posizionamente ed editing del sottotitolo */
+ div.head-content .h1-container{
+  width: 800px;
+  margin: 0 auto;
+  padding-top: 10px;
+}
+
+h1{
+  font-size: 22px;
+  text-align: center;
+  color: white;
+}
+
 /* creazione navbar sotto l' head-img */
-
-
 nav{
   width: 1200px;
   height: 80px;
