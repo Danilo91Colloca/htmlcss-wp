@@ -49,13 +49,14 @@ body{
 .container-sx{
   width: 150px;
   background-color: rgb(255, 255, 255);
-  border-radius: 10px;
+  border-radius: 5px;
 
 }
 
 .container-center{
   width: 850px;
   padding: 0 50px;
+
 
 }
 
@@ -102,16 +103,32 @@ h1{
 }
 
 /* creazione navbar sotto l' head-img */
-nav{
+div.navbar-center{
+  position: relative;
   width: 1200px;
-  height: 80px;
-
+  height: 50px;
   background-color: rgb(102, 102, 102);
 }
 
+/* navbar centrale */
+div.nav-items-container{
+  width:80%;
+  position:absolute;
+  transform: translate(-50%, -50%);
+  top:50%;
+  left:50%;
+  padding-left: 30px;
+}
+
+.nav-items-container > div.box-item{
+  height: 50px;
+  line-height: 50px;
+  padding: 0px 20px;
+  color: white;
+}
 /* icona del box sinistro */
 .icon-title-main {
-  border-radius: 5px;
+  border-radius: 3px;
 }
 .icon-sx-container{
   padding: 2px 5px;
