@@ -239,3 +239,31 @@ div.rectangle > div.text-widget-container> p:first-child{
   font-style: italic;
   color: rgb(180, 180, 180);
 }
+
+/* utility logo-box */
+.logo-box{
+  padding:0 48px;
+}
+
+/* logo background e posizionamento */
+
+div.logo-box> div.fb{
+  width: 300px;
+  height: 120px;
+  background-image: url("../img-milestone2/fb-logo.jpg");
+  background-position: center;
+}
+
+div.logo-box> div.ig{
+  width: 300px;
+  height: 120px;
+  background-image: url("../img-milestone2/ig-logo.jpg");
+  background-position: center;
+}
+
+div.logo-box> div.github{
+  width: 300px;
+  height: 120px;
+  background-image: url("../img-milestone2/github-logo.jpg");
+  background-position: center;
+}
