@@ -47,17 +47,15 @@ body{
 
 /* utility container sinistro, centro e destra */
 .container-sx{
-  width: 150px;
+  width: 200px;
   background-color: rgb(255, 255, 255);
   border-radius: 5px;
 
 }
 
 .container-center{
-  width: 850px;
-  padding: 0 50px;
-
-
+  width: 800px;
+  padding: 0 80px;
 }
 
 .container-dx{
@@ -127,11 +125,8 @@ div.nav-items-container{
   color: white;
 }
 /* icona del box sinistro */
-.icon-title-main {
-  border-radius: 3px;
-}
 .icon-sx-container{
-  padding: 2px 5px;
+  padding: 5px 8px;
 }
 
 
@@ -139,7 +134,7 @@ div.nav-items-container{
   width:25px;
   height: 25px;
   background-image: url("../img-milestone2/icon.png");
-  border-radius: 25%;
+  border-radius: 5px;
 }
 
 /* titolo box lato sinistro */
@@ -149,7 +144,7 @@ div.icon-title-main > div.title-sx-container{
 div.icon-title-main > div.title-sx-container >h3:first-child{
   text-align: center;
   font-weight: lighter;
-  font-size: 20px;
+  font-size: 28px;
   padding-bottom: 10px;
 }
 
@@ -161,22 +156,40 @@ div.icon-title-main > div.title-sx-container >h3:first-child{
 }
 .listbox-l-container > ul{
   list-style-type: none;
-  padding-left: 5px;
+  padding-left: 8px;
 }
 
 .listbox-l-container > ul > li{
   padding-bottom: 10px;
   color: rgb(62, 125, 34);
-  font-size: 14px;
+  font-size: 18px;
 
 }
 
 
-
+/* box CENTRALE */
 
 .container-center :first-child{
   background-color: rgb(255, 255, 255);
+  border-radius: 5px;
 }
+
+/* posizionamento del testo nel box centrale */
+.square-big{
+  padding: 20px 30px;
+}
+
+.square-big>h2{
+  padding-bottom: 30px;
+}
+
+.square-big> p{
+  line-height: 40px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+/* box DESTRO */
 
 .container-dx :first-child{
   width: 100%;
@@ -187,13 +200,20 @@ div.icon-title-main > div.title-sx-container >h3:first-child{
 
 }
 
+.container-dx :nth-child(3){
+  width: 100%;
+
+}
+
+
 .rectangle{
   width: 100%;
   height: 200px;
-  background-color: violet;
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
 }
 
-.box1{
+.box1,  .box2{
   padding-bottom: 10px;
 }
 
@@ -202,20 +222,6 @@ div.icon-title-main > div.title-sx-container >h3:first-child{
 
 
 
-/* posizionamento del testo nel box centrale */
-.square-big{
-  padding: 20px;
-  border-radius: 1%;
-}
-
-.square-big>h2{
-  padding-bottom: 30px;
-}
-
-.square-big> p{
-  line-height: 40px;
-  font-size: 20px;
-}
 /* utility footer */
 
 #footer-container{
