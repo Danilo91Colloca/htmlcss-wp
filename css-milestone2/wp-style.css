@@ -123,6 +123,7 @@ div.nav-items-container{
   line-height: 50px;
   padding: 0px 20px;
   color: white;
+  font-weight: 900;
 }
 /* icona del box sinistro */
 .icon-sx-container{
@@ -162,7 +163,6 @@ div.icon-title-main > div.title-sx-container > h3:first-child{
   padding-bottom: 10px;
   color: rgb(62, 125, 34);
   font-size: 18px;
-
 }
 
 
