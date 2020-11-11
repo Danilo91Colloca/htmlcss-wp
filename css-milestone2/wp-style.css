@@ -16,7 +16,6 @@ body{
 /* utility del contenitore totale*/
 #total-container{
   width: 1200px;
-  height: 2000px;  /* cmd temp */
   margin: 0 auto;
   background-image: url("../img-milestone2/page-bg.png");
 
@@ -248,6 +247,7 @@ div.title-sx-container>h3, div.title-widget-container>h3{
 /* utility logo-box */
 .logo-box{
   padding:0 48px;
+  padding-bottom: 20px;
 }
 
 /* logo background e posizionamento */
